@@ -1,4 +1,4 @@
-module github.com/nikolaydubina/go-instrument
+module github.com/SparrowOchon/go-echo-instrument
 
 go 1.21
 
