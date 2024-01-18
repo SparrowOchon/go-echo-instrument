@@ -66,7 +66,7 @@ func main() {
 		Instrumenter:     instrumenter,
 		FunctionSelector: functionSelector,
 		SpanName:         processor.BasicSpanName,
-		ContextName:      "ctx",
+		ContextName:      "c",
 		ContextPackage:   "echo",
 		ContextType:      "Context",
 		ErrorName:        "err",
