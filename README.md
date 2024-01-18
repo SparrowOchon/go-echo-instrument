@@ -42,7 +42,7 @@ func (s Cat) Name(ctx context.Context) (name string, err error) {
   ...
 ```
 
-Example HTTP server [go-instrument-example](https://github.com/nikolaydubina/go-instrument-example) as it appears in Datadog.
+Example HTTP server [go-instrument-example](https://github.com/SparrowOchon/go-echo-instrument-example) as it appears in Datadog.
 ![](./docs/fib-error.png)
 
 ## Features
