@@ -15,7 +15,7 @@ This tool uses standard Go library to modify AST with instrumentation. Use this 
 * OpenTelemetry (Datadog, NewRelic, etc.)
 
 ```bash
-go install github.com/nikolaydubina/go-instrument@latest
+go install github.com/SparrowOchon/go-echo-instrument@latest
 ```
 
 ```bash
@@ -42,7 +42,7 @@ func (s Cat) Name(ctx context.Context) (name string, err error) {
   ...
 ```
 
-Example HTTP server [go-instrument-example](https://github.com/SparrowOchon/go-echo-instrument-example) as it appears in Datadog.
+Example HTTP server [go-instrument-example](https://github.com/nikolaydubina/go-instrument-example) as it appears in Datadog.
 ![](./docs/fib-error.png)
 
 ## Features
