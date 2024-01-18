@@ -10,8 +10,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/nikolaydubina/go-instrument/instrument"
-	"github.com/nikolaydubina/go-instrument/processor"
+	"github.com/SparrowOchon/go-echo-instrument/instrument"
+	"github.com/SparrowOchon/go-instrument/processor"
 )
 
 func main() {
