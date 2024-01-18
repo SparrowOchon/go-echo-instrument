@@ -59,7 +59,7 @@ func main() {
 
 	var instrumenter processor.Instrumenter = &instrument.OpenTelemetry{
 		TracerName:  app,
-		ContextName: "ctx",
+		ContextName: "ctx.Request().Context()",
 		ErrorName:   "err",
 	}
 	p := processor.Processor{
