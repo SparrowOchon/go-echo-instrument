@@ -11,7 +11,7 @@ import (
 	"os"
 
 	"github.com/SparrowOchon/go-echo-instrument/instrument"
-	"github.com/SparrowOchon/go-instrument/processor"
+	"github.com/SparrowOchon/go-echo-instrument/processor"
 )
 
 func main() {
